@@ -1,0 +1,13 @@
+spring:
+  task:
+    scheduling:
+      pool:
+        size: 10
+      thread-name-prefix: my-scheduled-task-pool-
+
+logging:
+  level:
+    org:
+      apache:
+        coyote:
+          http11: debug
